@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue Sep 02 14:40:21 GMT 2025","Tue Sep 02 14:40:21 GMT 2025","0","tests","test_check_swag","TestSwagLabs","","","test_check_password_field",""
+"broken","Tue Sep 02 14:45:34 GMT 2025","Tue Sep 02 14:45:34 GMT 2025","0","tests","test_check_swag","TestSwagLabs","","","test_check_password_field",""

@@ -1,1 +1,0 @@
-Error creating WebDriver: [Errno 8] Exec format error: '/home/runner/.wdm/drivers/chromedriver/linux64/139.0.7258.154/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver'
