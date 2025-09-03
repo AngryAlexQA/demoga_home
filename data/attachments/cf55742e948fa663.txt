@@ -1,0 +1,12 @@
+2025-09-03 12:52:48,274 - WDM - INFO - xdist worker is: gw1
+2025-09-03 12:52:48,275 - WDM - INFO - ====== WebDriver manager ======
+2025-09-03 12:52:49,693 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-03 12:52:49,781 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-03 12:52:49,844 - WDM - INFO - There is no [linux64] chromedriver "139.0.7258.154" for browser google-chrome "139.0.7258" in cache
+2025-09-03 12:52:49,844 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-03 12:52:50,113 - WDM - INFO - WebDriver version 139.0.7258.154 selected
+2025-09-03 12:52:50,117 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/linux64/chromedriver-linux64.zip
+2025-09-03 12:52:50,117 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.154/linux64/chromedriver-linux64.zip
+2025-09-03 12:52:50,194 - WDM - INFO - Driver downloading response is 200
+2025-09-03 12:52:50,310 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-03 12:52:50,526 - WDM - INFO - Driver has been saved in cache [/home/runner/.wdm/gw1/drivers/chromedriver/linux64/139.0.7258.154]
