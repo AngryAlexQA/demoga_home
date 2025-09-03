@@ -1,1 +1,1 @@
-{"6adf97f83acf6453d4a6a4b1070f3754":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"9a73c77d928d4ea7","reportUrl":"https://AngryAlexQA.github.io/demoga_home/15//#testresult/9a73c77d928d4ea7","status":"broken","statusDetails":"AttributeError: 'str' object has no attribute 'iter_parents'","time":{"start":1756903972234,"stop":1756903972234,"duration":0}}]}}
+{}
