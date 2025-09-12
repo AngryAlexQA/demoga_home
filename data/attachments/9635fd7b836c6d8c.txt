@@ -1,4 +1,0 @@
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache

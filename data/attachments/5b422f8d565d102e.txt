@@ -1,4 +1,0 @@
-2025-09-12 09:15:02,957 - WDM - INFO - ====== WebDriver manager ======
-2025-09-12 09:15:03,020 - WDM - INFO - Get LATEST chromedriver version for google-chrome
-2025-09-12 09:15:03,085 - WDM - INFO - Get LATEST chromedriver version for google-chrome
-2025-09-12 09:15:03,147 - WDM - INFO - Driver [/home/runner/.wdm/drivers/chromedriver/linux64/140.0.7339.82/chromedriver-linux64/THIRD_PARTY_NOTICES.chromedriver] found in cache
