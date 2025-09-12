@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Sep 12 09:15:00 UTC 2025","Fri Sep 12 09:15:00 UTC 2025","0","tests","test_check_swag","","","","test_check_icon","Тест проверки наличия иконки."
+"broken","Fri Sep 12 09:15:05 UTC 2025","Fri Sep 12 09:15:05 UTC 2025","0","tests","test_check_swag","","","","test_check_password_field","Тест проверки наличия поля пароля."
+"broken","Fri Sep 12 09:15:02 UTC 2025","Fri Sep 12 09:15:02 UTC 2025","0","tests","test_check_swag","","","","test_check_username_field","Тест проверки наличия поля имени пользователя."

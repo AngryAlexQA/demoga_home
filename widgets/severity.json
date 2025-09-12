@@ -1,1 +1,1 @@
-[]
+[{"uid":"2fea3f249b5bcc94","name":"test_check_icon","time":{"start":1757668500379,"stop":1757668500379,"duration":0},"status":"broken","severity":"normal"},{"uid":"7f967d47a0392883","name":"test_check_username_field","time":{"start":1757668502768,"stop":1757668502768,"duration":0},"status":"broken","severity":"normal"},{"uid":"ae8d4320b3fc4593","name":"test_check_password_field","time":{"start":1757668505191,"stop":1757668505191,"duration":0},"status":"broken","severity":"normal"}]
