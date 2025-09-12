@@ -1,5 +1,5 @@
-[![Python Selenium Tests](https://github.com/AngryAlexQA/demoga_home/actions/workflows/python-app.yml/badge.svg)](https://github.com/AngryAlexQA/demoga_home/actions/workflows/python-app.yml)
-
+[![Python UI Tests](https://github.com/AngryAlexQA/demoga_page/actions/workflows/python-app.yml/badge.svg)](https://github.com/AngryAlexQA/demoga_page/actions/workflows/python-app.yml)
+[![pages-build-deployment](https://github.com/AngryAlexQA/demoga_page/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AngryAlexQA/demoga_page/actions/workflows/pages/pages-build-deployment)
 # DemoQA Home Project
 
 Проект для автоматизации тестирования демо-сайта Swag Labs.
