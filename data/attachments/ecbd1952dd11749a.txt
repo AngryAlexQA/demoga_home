@@ -1,0 +1,3 @@
+2025-09-12 10:08:51,721 - conftest - INFO - Инициализация WebDriver
+2025-09-12 10:08:52,132 - conftest - INFO - Тест test_check_password_field успешно пройден
+2025-09-12 10:08:52,192 - conftest - INFO - Завершение работы WebDriver
