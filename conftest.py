@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import logging
+import os
 
 # Настройка логирования
 logging.basicConfig(
@@ -24,13 +25,23 @@ def driver():
     chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--disable-extensions')
     
-    # Автоматическая установка ChromeDriver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # Точный путь к ChromeDriver
+    driver_path = ChromeDriverManager().install()
     
-    logger.info("WebDriver инициализирован")
-    yield driver
-
-    # Закрытие драйвера после теста
-    driver.quit()
-    logger.info("WebDriver закрыт")
+    # Установка прав на выполнение
+    os.chmod(driver_path, 0o755)
+    
+    # Создание сервиса с явным указанием пути
+    service = Service(executable_path=driver_path)
+    
+    try:
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+        logger.info("WebDriver инициализирован")
+        yield driver
+    except Exception as e:
+        logger.error(f"Ошибка инициализации WebDriver: {e}")
+        raise
+    finally:
+        # Закрытие драйвера после теста
+        driver.quit()
+        logger.info("WebDriver закрыт")
